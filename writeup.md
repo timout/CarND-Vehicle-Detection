@@ -46,7 +46,7 @@ but found that the YCrCb channels worked better.
 
 HOG parameters:  
 * Colorspace for HOG features:  YCrCb  
-* Number of orientations:  9
+* Number of orientations:  12
 * Pixels per cell:  (8, 8)
 * Cells per block:  (2, 2)
 * Cells per step:  2
@@ -112,7 +112,7 @@ By applying the following steps to every frame:
    When information about previous vehicles is provided, this function does:  
    1. Apply heatmap and threashold = 2 to current map
    2. Combine current frame heatmap with previous frames
-   3. Take average with threashold = 5 
+   3. Take average with threashold = 3 
 * 'draw' method to draw rectangles around cars.  
 
 ##### Result 
