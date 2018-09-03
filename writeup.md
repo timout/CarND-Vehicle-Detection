@@ -115,6 +115,9 @@ By applying the following steps to every frame:
    3. Take average with threashold = 5 
 * 'draw' method to draw rectangles around cars.  
 
+##### Result 
+![img](./proc_project_video.gif) 
+
 ### Discussion
 
 In my openion that model has the following weaknesses:  
