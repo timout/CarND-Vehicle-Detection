@@ -123,3 +123,10 @@ By applying the following steps to every frame:
 In my openion that model has the following weaknesses:  
 * False positives - some other improvements are required for model generalization.
 * Performance. I did a lot of small optimizations but was not able to make it acceptable for real world.
+
+### Addendum
+
+I have changed skimage hog to cv2 implementation and as result:  
+* Performace improved about 2 times
+* Number of false positives reduced dramatically
+* Unfortunately I was not keep HOG exctraction per frame: that I will work next.  
